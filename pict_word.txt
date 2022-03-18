@@ -1,0 +1,14 @@
+Font: Palatino Linotype, NSimSun, Nyala, Old English Text MT, Onyx,
+Font style: Regular, Italic, Bold, Bold Italic,
+Size: 8, 9, 10, 11, 12, 
+Effects1: Effect_on, Effect_off 
+Effects2: Effect_on, Effect_off 
+Effects3: Effect_on, Effect_off 
+Effects4: Effect_on, Effect_off 
+Effects5: Effect_on, Effect_off 
+Effects6: Effect_on, Effect_off 
+Effects7: Effect_on, Effect_off 
+Effects8: Effect_on, Effect_off 
+Effects9: Effect_on, Effect_off 
+Effects:10 Effect_on, Effect_off 
+Effects11: Effect_on, Effect_off 

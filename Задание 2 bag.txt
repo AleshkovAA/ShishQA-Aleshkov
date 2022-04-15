@@ -1,0 +1,60 @@
+1. Steps: 1. Enter the number 0
+          2. Press the "+/-" button
+    Expected result: The entered number 0 does not fall out in any way, it has no sign
+    getting the result: When registering +-, work is expected, everything disappears on the display, the buttons stop working
+
+2. Steps: 1. Enter the number 9
+         2. Press the "sqrt" button
+         3. Copy the resulting number to the clipboard
+         4. Press the "*" button
+         5. Enter a number from the clipboard
+         6. Press the "=" button
+    Expected Result: The result screen displays the number 9
+    Actual result: the number with the expected result does not match the actual result (the answer is 1)
+
+3. steps: 1. Enter an arbitrary positive number
+         2. Press the "*" key
+         3. Enter the number "100"
+         4. Press the "%" key
+         5. Press the "=" key
+    Expected result: The result screen should show the square of the original number entered in step 1 because x*x = x^2
+    Actual result: The answer will always be "1" more
+
+4. Steps: 1. Enter an arbitrary positive number
+         2. Press the "*" key
+         3. Enter the number "0"
+         4. Press the "%" key
+         5. Press the "=" key
+    Expected result: The result screen should show 0 because x*0 = 0
+    Actual Result: The actual result is always "1"
+
+5. Steps: 1. Enter an arbitrary positive number
+         2. Press the "-" key
+         3. Enter the number "100"
+         4. Press the "%" key
+         5. Press the "=" key
+    Expected result: In the results screen, the original number because x-0 = x
+    Actual result: The actual result is always "0"
+
+6. Steps: 1. Enter numbers from the keyboard
+         2. Press the "+" key
+         3. Enter a number from the keyboard
+         4. Press the "=" key
+   Expected Result: The result screen will display the sum of the numbers entered.
+   Actual result: After I press the "+" sign, the application stops working
+
+7. Steps: 1. Enter numbers from the keyboard
+         2. Press on the keyboard to know "/"
+         3. Enter numbers from the keyboard
+         4. press the "=" sign on the keyboard
+   Expected Result: A response will appear on the screen
+   Actual Result: Everything was recorded in the application, but no calculations occurred
+
+8. Steps: Try to enter letters, special characters (#, @, etc.)
+   Expected result: Letters and special characters cannot be entered
+   Actual result: All letters and special characters are entered in the application
+
+9. Steps: 1. Enter a positive integer
+         2. Press the "log10" key
+   Expected Result: The result screen will display the number you need to raise "10" to the power of to get the original number
+   Actual result: No button

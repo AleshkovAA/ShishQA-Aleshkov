@@ -1,0 +1,21 @@
+SELECT count(*) FROM Customers where Country='Germany';
+
+SELECT count(*) FROM Customers 
+where CustomerName LIKE '%e';
+
+insert into customers (ContactName)
+values ('Arseniy Aleshkov');
+SELECT * FROM Customers where ContactName='Arseniy Aleshkov';
+
+UPDATE Customers 
+set ContactName='Arsen Pirozhkov'
+where ContactName='Arseniy Aleshkov';
+
+DELETE FROM Customers WHERE City='Nantes' 
+
+
+SELECT Orders.OrderID, Employees.FirstName
+FROM Employees
+INNER JOIN Orders 
+ON Employees.EmployeeID=Orders.EmployeeID
+WHERE FirstName='Steven'
